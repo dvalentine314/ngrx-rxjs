@@ -1,0 +1,4 @@
+<div class="border">
+  {{transaction.title}}
+  <app-customer-item *ngFor="let item of transaction.items" [item]="item"></app-customer-item>
+</div>

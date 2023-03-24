@@ -1,0 +1,8 @@
+<ng-container *ngIf="customer!==undefined">
+  <app-customer-details [customer]="customer"></app-customer-details>
+</ng-container>
+<ng-container *ngIf="customerVisits!==undefined">
+  <div *ngFor="let customerVisit of customerVisits">
+    <app-customerVisit-summary [customerVisit]="customerVisit"></app-customerVisit-summary>
+  </div>
+</ng-container>

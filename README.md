@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+ok so the story is you are an event place like 6 flags or disney land. you track customers visits as well as what and where they purchased stuff. so like on a tuesday someone might visit and find a food stand. at that food stand they might by cotton candy and a doughnut
+
+
+`customers` have
+`visits` where they make
+`transactions` where they purchase 
+`items`

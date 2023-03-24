@@ -1,0 +1,7 @@
+<ng-container *ngIf="customerVisit">
+  <div class="border">
+    <span>{{customerVisit.title}}</span>
+    <app-customer-transaction *ngFor="let transaction of customerVisit.transactions" [transaction]="transaction">
+    </app-customer-transaction>
+  </div>
+</ng-container>
