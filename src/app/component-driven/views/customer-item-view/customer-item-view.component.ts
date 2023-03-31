@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CustomerItemViewModel } from '../../viewModels/customerViewModels';
+import { CustomerItemViewModel } from '../../pages/customer-overview/customerViewModels';
 
 @Component({
   selector: 'app-customer-item',

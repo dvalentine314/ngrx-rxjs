@@ -1,0 +1,19 @@
+<ng-container *ngIf="item">
+  <div class="border">
+    <div>
+      <label for="name">name</label>
+      <input name="name" [(ngModel)]="item.name" />
+    </div>
+    <div>
+      <label for="price">price</label>
+      <input name="price" (ngModelChange)="priceChanged($event)" [ngModel]="item.price" />
+    </div>
+    <div>
+      <label for="quantity">quantity</label>
+      <input name="amount" (ngModelChange)="amountChanged($event)" [ngModel]="item.amount" />
+    </div>
+    <div>
+      total:{{item.total}}
+    </div>
+  </div>
+</ng-container>

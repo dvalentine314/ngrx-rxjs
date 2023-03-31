@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CustomerTransactionViewModel } from '../../viewModels/customerViewModels';
+import { CustomerTransactionViewModel } from '../../pages/customer-overview/customerViewModels';
 
 @Component({
   selector: 'app-customer-transaction',

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Customer } from '../../resource-access/customerResourceModels';
+import { Customer } from '../../../resource-access/customerResourceModels';
 
 @Component({
   selector: 'app-customer-details',

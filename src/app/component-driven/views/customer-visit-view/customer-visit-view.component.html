@@ -1,5 +1,6 @@
 <ng-container *ngIf="customerVisit">
   <div class="border">
+    <button [routerLink]="['../edit-visit',customerVisit.id]">edit visit</button>
     <span>{{customerVisit.title}}</span>
     <app-customer-transaction *ngFor="let transaction of customerVisit.transactions" [transaction]="transaction">
     </app-customer-transaction>

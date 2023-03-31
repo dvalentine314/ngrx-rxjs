@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CustomerVisitViewModel } from '../../viewModels/customerViewModels';
+import { CustomerVisitViewModel } from '../../pages/customer-overview/customerViewModels';
 
 @Component({
   selector: 'app-customerVisit-summary',
@@ -8,5 +8,5 @@ import { CustomerVisitViewModel } from '../../viewModels/customerViewModels';
 })
 export class CustomerVisitViewComponent {
   @Input()
-  customerVisit: CustomerVisitViewModel | undefined;
+  customerVisit!: CustomerVisitViewModel;
 }

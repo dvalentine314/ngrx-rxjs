@@ -8,6 +8,7 @@ export interface CustomerItemViewModel {
 export interface CustomerTransactionViewModel {
   title: string;
   items: CustomerItemViewModel[];
+  total: number;
 }
 
 export interface CustomerVisitViewModel {

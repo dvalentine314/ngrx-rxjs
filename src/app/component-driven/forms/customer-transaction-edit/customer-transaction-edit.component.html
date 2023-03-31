@@ -1,0 +1,6 @@
+<div class="border">
+  <input name="name" [(ngModel)]="transaction.title" />
+  <div>subtotal: {{transaction.total}}</div>
+  <app-customer-item-edit *ngFor="let item of transaction.items" [item]="item"
+    (totalChanged)="updateSubtotal()"></app-customer-item-edit>
+</div>
